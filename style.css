@@ -52,7 +52,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: #f2f2f2;
-	background-image:url("img/background.jpg");
+	/* background-image:url("img/bg2.jpg"); */
 	background-attachment:fixed;
 	background-repeat:no-repeat;
 	background-size:100%;
@@ -97,11 +97,11 @@ nav#head ul li {
 }
 
 nav#head ul li:hover {
-	background-color:#4a4a4a;
-	border-color:#4a4a4a;
+	background-color:rgba(204, 204, 204, .5);
+	border-color:rgba(204, 204, 204, .5);
 	border-style:solid;
 	border-radius:40px;
-	border-width:1px;
+	border-width:0px;
 }
 
 nav#head ul li a {
@@ -145,7 +145,7 @@ background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.57) 63%,rg
 width:100%;
 display: flex;
     flex-direction: column;
-	margin-top:20%;
+	margin-top:14%;
 }
 
 iframe#yt {
@@ -176,8 +176,8 @@ nav#redes ul li a {
 }
 
 nav#redes ul li a:hover {
-	background-color:#cccccc;
-	border-color:#cccccc;
+	background-color:rgba(204, 204, 204, .5);
+	border-color:rgba(204, 204, 204, .5);
 	border-style:solid;
 	border-radius:40px;
 	border-width:2px;
@@ -190,6 +190,36 @@ img#logos {
 	vertical-align:middle;
 }
 
+nav#uploads ul li{
+	display:inline-flex;
+	padding:3vw;
+}
+
+nav#uploads	 ul li a {
+	color:#f2f2f2;
+	text-decoration: none;
+	border-style:solid;
+	border-radius:10px;
+	border-width:0.5px;
+	width:15vw;
+	height:13vw;
+	display: inline-table;
+	font-family:FontBold;
+	margin-top:3vw;
+	margin-bottom:5vw;
+	padding:5vw;
+}
+
+nav#uploads	 ul li a:hover{
+	background-color:rgba(204, 204, 204, .5);
+	border-color:rgba(204, 204, 204, 0);
+}
+
+img#albumlogo{
+	width: 100%;
+    height: auto;
+    margin-top: 10vh;
+}
 
 
 /* Media query para dispositivos móviles */
@@ -224,4 +254,9 @@ img#logos {
 	font-family:FontBold;
 	font-size:7vw;
 	}
+	
+	iframe#spotify {
+	width:60vw;
+	height:100vw;
+}
 }
