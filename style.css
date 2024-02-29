@@ -258,5 +258,37 @@ img#albumlogo{
 	iframe#spotify {
 	width:60vw;
 	height:100vw;
+	}
+	
+	nav#uploads	 ul li a {
+	color:#f2f2f2;
+	text-decoration: none;
+	border-style:solid;
+	border-radius:10px;
+	border-width:0.5px;
+	width:25vw;
+	height:7vw;
+	display: inline-table;
+	font-family:FontBold;
+	margin-top:3vw;
+	margin-bottom:5vw;
+	padding:5vw;
+	}
+	
+	nav#head ul li {
+    display: inline;
+	padding:20px;
+	    margin: -11px;
+
+    /* margin-right: 20px; */
+	/* border-style:solid; */
+	/* border-radius:40px; */
+	/* border-width:1px; */
+	}
+	
+	img#albumlogo{
+	width: 100%;
+    height: auto;
+    margin-top: 5vh;
 }
 }
