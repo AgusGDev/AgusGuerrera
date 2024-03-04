@@ -221,6 +221,10 @@ img#albumlogo{
     margin-top: 10vh;
 }
 
+a#wpp:hover{
+	color:#333;
+}
+
 
 /* Media query para dispositivos móviles */
 @media only screen and (max-width: 600px) {
