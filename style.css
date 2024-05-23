@@ -217,7 +217,7 @@ img#logos {
 
 nav#uploads ul li{
 	display:inline-flex;
-	padding:3vw;
+	padding:2vw;
 }
 
 nav#uploads	 ul li a {
@@ -230,8 +230,8 @@ nav#uploads	 ul li a {
 	height:13vw;
 	display: inline-table;
 	font-family:FontBold;
-	margin-top:3vw;
-	margin-bottom:5vw;
+	/* margin-top:3vw; */
+	/* margin-bottom:5vw; */
 	padding:5vw;
 }
 
